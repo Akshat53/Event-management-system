@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^cms\.abhiruchi\.club$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cms\.abhiruchi\.club$
+RewriteRule ^/?$ "http\:\/\/abhiruchi\.club\/admin\/login\.php" [R=301,L]
+
